@@ -1,0 +1,33 @@
+{
+  "name": "Google Maps Scraper: Places, Emails, Contacts & Reviews Pro — Automated Make.com Scenario",
+  "flow": [
+    {
+      "id": 1,
+      "module": "http:ActionSendData",
+      "version": 3,
+      "parameters": {},
+      "mapper": {
+        "url": "https://api.apify.com/v2/acts/lucacelli~google-maps-scraper-places-emails-contacts-reviews/run-sync-get-dataset-items?token={{YOUR_APIFY_TOKEN}}",
+        "method": "post",
+        "headers": [
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "qs": [],
+        "bodyType": "raw",
+        "parseResponse": true,
+        "contentType": "application/json",
+        "data": "{\"queries\":[\"dentist in Miami, FL\",\"medspa in Austin, TX\"],\"maxPlacesPerQuery\":50,\"enrichWebsiteContacts\":true,\"verifyEmailDns\":true}"
+      },
+      "metadata": {
+        "designer": {
+          "x": 0,
+          "y": 0
+        },
+        "notes": "Get your free $5 Apify API token & inspect Actor at https://apify.com/lucacelli/google-maps-scraper-places-emails-contacts-reviews"
+      }
+    }
+  ]
+}
