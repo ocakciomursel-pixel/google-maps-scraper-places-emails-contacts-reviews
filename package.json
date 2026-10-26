@@ -1,0 +1,27 @@
+{
+  "name": "@lucacelli/google-maps-scraper-places-emails-contacts-reviews",
+  "version": "2.1.0",
+  "description": "Extract Google Maps businesses, ratings, reviews, phone numbers, websites, plus automatic website crawling for verified emails, social links, DNS MX/SPF/DMARC & B2B lead scores (0-100) with $0 add-on fees.",
+  "type": "module",
+  "main": "index.js",
+  "homepage": "https://apify.com/lucacelli/google-maps-scraper-places-emails-contacts-reviews",
+  "keywords": [
+    "google-maps-scraper",
+    "google-maps-api",
+    "lead-generation",
+    "b2b-leads",
+    "email-extractor",
+    "apify-actor",
+    "local-seo",
+    "google-places-api",
+    "contact-scraper",
+    "phone-number-scraper",
+    "business-directory",
+    "n8n-workflow",
+    "mcp-server",
+    "web-scraping",
+    "sales-automation"
+  ],
+  "author": "Lucacelli Cloud Data Engineering",
+  "license": "MIT"
+}
